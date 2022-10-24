@@ -18,7 +18,7 @@ Este é um aplicativo web simples que permite pesquisar Pokémon e visualizar su
 yarn install
 ```
 
-or
+ou
 
 ```bash
 npm install
@@ -30,7 +30,7 @@ npm install
 yarn dev
 ```
 
-or
+ou
 
 ```bash
 npm run dev
