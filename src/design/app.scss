@@ -1,0 +1,23 @@
+// Fonts
+@import "styles/fonts/fonts";
+
+// variables
+@import "variables";
+
+// reset css
+@import "styles/reset";
+
+// components
+@import "styles/components/card";
+@import "styles/components/button";
+@import "styles/components/input";
+@import "styles/components/modal";
+
+// components responsive
+@import "styles/components/card-responsive";
+
+// Layouts
+@import "styles/layouts/main";
+
+// Pages
+@import "styles/pages/home";

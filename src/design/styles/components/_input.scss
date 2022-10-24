@@ -1,0 +1,42 @@
+.container__input {
+  margin: 24px auto;
+  padding: 0 12px;
+
+  .input__search {
+    width: 100%;
+    max-width: 600px;
+    height: 48px;
+    padding: 0 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: $font-family;
+    outline: none;
+    border: 2px solid $purple-600;
+  }
+
+  form {
+    display: flex;
+    gap: 10px;
+  }
+
+  button {
+    margin-left: 8px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: $font-family;
+    outline: none;
+    border: 2px solid $purple-600;
+    background-color: $purple-600;
+    color: $white;
+    cursor: pointer;
+    padding: 0 20px;
+
+    &:hover {
+      background-color: $purple-700;
+      border-color: $purple-700;
+      animation: ease 0.2s;
+    }
+  }
+
+}

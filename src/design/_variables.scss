@@ -1,0 +1,43 @@
+@use 'sass:math';
+
+// Color variables
+
+$white: #fff;
+$black: #000;
+$background: #ffffff;
+
+// Pokemon types colors
+
+$grass: #D6EBDC;
+$fire: #FFEBCA;
+$water: #DFECF5;
+$normal: rgba(141, 141, 141, 0.2);
+$fighting: rgba(196, 77, 97, 0.2);
+$flying: rgba(158, 180, 227, 0.2);
+$poison: rgba(172, 106, 202, 0.2);
+$ground: rgba(203, 119, 74, 0.2);
+$rock: rgba(134, 203, 190, 0.2);
+$bug: rgba(131, 158, 56, 0.2);
+$ghost: rgba(97, 110, 183, 0.2);
+$steel: rgba(101, 148, 161, 0.2);
+$electric: rgba(207, 190, 93, 0.2);
+$psychic: rgba(235, 140, 133, 0.2);
+$ice: rgba(124, 197, 182, 0.2);
+$dragon: rgba(70, 105, 153, 0.2);
+$dark: rgba(61, 60, 63, 0.2);
+$fairy: rgba(221, 138, 220, 0.2);
+
+$purple-100: #f8f6fd;
+$purple-200: #f2edfc;
+$purple-300: #e5dbf8;
+$purple-400: #d3c2f3;
+$purple-500: #b59aec;
+$purple-600: #9872e4;
+$purple-700: #7e4fdd;
+$purple-800: #6f3ad9;
+$purple-900: #5724be;
+
+// Typography
+
+$font-family: 'Inter',
+sans-serif;

@@ -1,0 +1,172 @@
+.card {
+  box-shadow: 0 10px 51px -5px rgb(183 189 193 / 30%);
+  border-radius: 16px;
+  cursor: pointer;
+  padding-bottom: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    -webkit-box-shadow: 0px 12px 40px -5px rgba(90, 96, 100, 0.3);
+    box-shadow: 0px 12px 40px -5px rgba(90, 96, 100, 0.3);
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+
+    img {
+      transform: scale(1.05);
+    }
+  }
+
+  .card__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+    img {
+      max-width: 50%;
+      transition: all 0.3s ease-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    &:before {
+      content: "";
+      width: 185px;
+      height: 185px;
+      border-radius: 50%;
+      position: absolute;
+      z-index: -1;
+      background-color: #D6EBDC;
+    }
+
+  }
+
+  .card__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+
+    h3 {
+
+    }
+  }
+
+  .card__key {
+    padding: 0 28px;
+  }
+
+  .grass {
+    &:before {
+      background-color: $grass;
+    }
+  }
+
+  .fire {
+    &:before {
+      background-color: $fire;
+    }
+  }
+
+  .water {
+    &:before {
+      background-color: $water;
+    }
+  }
+
+  .normal {
+    &:before {
+      background-color: $normal;
+    }
+  }
+
+  .fighting {
+    &:before {
+      background-color: $fighting;
+    }
+  }
+
+  .flying {
+    &:before {
+      background-color: $flying;
+    }
+  }
+
+  .poison {
+    &:before {
+      background-color: $poison;
+    }
+  }
+
+  .ground {
+    &:before {
+      background-color: $ground;
+    }
+  }
+
+  .rock {
+    &:before {
+      background-color: $rock;
+    }
+  }
+
+  .bug {
+    &:before {
+      background-color: $bug;
+    }
+  }
+
+  .ghost {
+    &:before {
+      background-color: $ghost;
+    }
+  }
+
+  .steel {
+    &:before {
+      background-color: $steel;
+    }
+  }
+
+  .electric {
+    &:before {
+      background-color: $electric;
+    }
+  }
+
+  .psychic {
+    &:before {
+      background-color: $psychic;
+    }
+  }
+
+  .ice {
+    &:before {
+      background-color: $ice;
+    }
+  }
+
+  .dragon {
+    &:before {
+      background-color: $dragon;
+    }
+  }
+
+  .dark {
+    &:before {
+      background-color: $dark;
+    }
+  }
+
+  .fairy {
+    &:before {
+      background-color: $fairy;
+    }
+  }
+}

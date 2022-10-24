@@ -1,0 +1,29 @@
+.card {
+  // Mobile
+  @media (max-width: 767px) {
+    width: 100%;
+    position: relative;
+
+    img {
+      max-width: 20%;
+      transition: all 0.3s ease-out;
+    }
+
+    .card__image {
+      height: 160px;
+      width: 90%;
+
+      &:before {
+        width: 155px;
+        height: 155px;
+      }
+    }
+  }
+  // Desktop
+  @media (min-width: 768px) {
+    &__key {
+      padding: 0 28px;
+    }
+  }
+
+}
